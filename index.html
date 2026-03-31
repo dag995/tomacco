@@ -41,6 +41,7 @@
       font-family:"Fredoka", sans-serif;
       font-size:1em;
       color:#f14716;
+      box-sizing: border-box;
     }
 
     :root :where(.wp-block-separator.is-style-wide--4:not(.alignfull)) {
@@ -97,6 +98,7 @@
       margin:0 auto;
       border-radius:20px;
       margin-bottom:20px;
+      box-sizing: border-box;
     }
     .d-flex {
       display: flex;
@@ -133,6 +135,18 @@
     }
     .mt-0 {
       margin-top:0;
+    }
+    @media( max-width:480px ) {
+      .w-600 {
+        padding:12px;
+      }
+      .menu-wrap {
+        margin:12px;
+      }
+      h3.star { 
+        font-size:1.2em; 
+        padding:20px;
+      }
     }
   </style>
 
